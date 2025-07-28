@@ -1,0 +1,70 @@
+/* Reset sederhana */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body & font */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #222;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+nav ul.nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+nav ul.nav-list li {
+  margin: 0 15px;
+}
+
+nav ul.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 5px 10px;
+  transition: background-color 0.3s;
+  border-radius: 5px;
+}
+
+nav ul.nav-list li a:hover {
+  background-color: #555;
+}
+
+nav ul.nav-list li a.active {
+  background-color: #0066cc;
+  color: #fff;
+}
+
+/* Header & main */
+header, main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 40px;
+}
